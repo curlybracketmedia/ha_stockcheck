@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Add a Stock",
+        "data": {
+          "name": "Stock",
+          "quantity": "Quantity",
+          "unit": "Unit"
+        }
+      }
+    }
+  }
+}

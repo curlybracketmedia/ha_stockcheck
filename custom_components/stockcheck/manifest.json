@@ -1,0 +1,17 @@
+{
+  "domain": "stockcheck",
+  "name": "Stock Checks",
+  "codeowners": [
+    "@curlybracketmedia"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/curlybracketmedia/ha_stockcheck",
+  "homekit": {},
+  "iot_class": "local_polling",
+  "requirements": [],
+  "single_config_entry": false,
+  "ssdp": [],
+  "version": "1.2.1",
+  "zeroconf": []
+}
