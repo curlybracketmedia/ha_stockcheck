@@ -34,7 +34,7 @@ class StockCheckSensor(RestoreEntity):
 
         quantity = self._data.get("quantity", 100)
         self._data.setdefault("quantity", quantity)
-        self._data.setdefault("unit", self._data.get("unit", 1))
+        self._data.setdefault("unit", self._data.get("unit", 'kg'))
         self._data.setdefault("expiry", None)
 
         self._data["status"] = self.calculate_status(self._data["expiry"])
