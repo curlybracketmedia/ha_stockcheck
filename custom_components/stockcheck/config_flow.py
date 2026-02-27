@@ -15,7 +15,7 @@ class StockCheckConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         schema = vol.Schema({
             vol.Required("name", description={"name": "Name"}): str,
             vol.Required("quantity", default=100, description={"name": "Quantity"}): int,
-            vol.Required("unit", default=1, description={"name": "Unit"}): int,
+            vol.Required("unit", default='kg', description={"name": "Unit"}): str,
         })
 
         return self.async_show_form(step_id="user", data_schema=schema)
